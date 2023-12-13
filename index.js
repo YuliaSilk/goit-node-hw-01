@@ -1,5 +1,5 @@
 import * as contactServise from "./contacts.js";
-import { program } from "comander";
+import { program } from "commander";
 
 
 async function invokeAction({ action, id, name, email, phone }) {
